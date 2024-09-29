@@ -44,6 +44,63 @@ Através do uso de um template estruturado, o otimizador melhora a precisão das
 - **Dialogflow**: Permite que os usuários criem geradores para especificar comportamentos e respostas do agente em tempo de execução.
 - **Azure OpenAI**: Permite integrar técnicas de Promp Engineering com LLM disponíveis na Azure. 
 
+## Principais técnicas de Prompt Engineering
+
+A engenharia de prompts é uma prática essencial para melhorar a interação com modelos de linguagem e obter resultados mais eficazes. Aqui estão algumas das técnicas avançadas de prompting que podem ser utilizadas para tarefas complexas e, no contexto de Agents, introduzidas no fluxo de um Agent, para o que o mesmo execute cada técnica de forma autônoma. 
+
+1. **Zero-shot Prompting**
+   - Realiza uma tarefa sem fornecer exemplos específicos, confiando na capacidade do modelo de generalizar a partir de sua formação prévia.
+
+2. **Few-shot Prompting**
+   - Fornece alguns exemplos para o modelo antes de solicitar uma resposta, ajudando-o a entender melhor a tarefa desejada.
+
+3. **Chain-of-Thought Prompting**
+   - Incentiva o modelo a pensar em etapas, produzindo uma cadeia de raciocínio que pode levar a respostas mais bem fundamentadas.
+
+4. **Self-Consistency**
+   - Gera várias respostas para a mesma solicitação e escolhe a mais consistente, melhorando a confiabilidade das respostas.
+
+5. **Generate Knowledge Prompting**
+   - Utiliza prompts que incentivam o modelo a gerar ou recuperar informações a partir de seu conhecimento prévio.
+
+6. **Prompt Chaining**
+   - Combina múltiplos prompts em uma sequência, onde a saída de um prompt alimenta o próximo, permitindo tarefas mais complexas.
+
+7. **Tree of Thoughts**
+   - Estrutura o pensamento do modelo em forma de árvore, permitindo explorar diferentes caminhos de raciocínio e alternativas.
+
+8. **Retrieval Augmented Generation (RAG)**
+   - Combina recuperação de informações com geração de texto, permitindo que o modelo utilize dados externos para melhorar suas respostas.
+
+9. **Automatic Reasoning and Tool-use**
+   - Permite que o modelo utilize raciocínio lógico e ferramentas externas para resolver problemas de forma mais eficaz.
+
+10. **Automatic Prompt Engineer**
+    - Sistemas automatizados que geram prompts otimizados com base em tarefas específicas, melhorando a eficiência do prompting.
+
+11. **Active-Prompt**
+    - Um método dinâmico que ajusta prompts em tempo real com base nas respostas do modelo, promovendo uma interação mais responsiva.
+
+12. **Directional Stimulus Prompting**
+    - Fornece direções específicas para guiar o modelo em uma determinada direção, ajudando a moldar suas respostas.
+
+13. **Program-Aided Language Models**
+    - Integra modelos de linguagem com programas que podem realizar tarefas específicas, ampliando as capacidades do modelo.
+
+14. **ReAct**
+    - Combina raciocínio com ações, permitindo que o modelo execute tarefas com base em suas deduções.
+
+15. **Reflexion**
+    - Incorpora autoavaliação nas respostas do modelo, permitindo que ele revise e melhore suas próprias saídas.
+
+16. **Multimodal CoT**
+    - Aplica o Chain-of-Thought em contextos multimodais, onde diferentes tipos de dados (texto, imagem, etc.) são considerados.
+
+17. **Graph Prompting**
+    - Utiliza representações gráficas para estruturar informações e relações, ajudando o modelo a compreender e responder a consultas complexas.
+
 ## Conclusão
-O Otimizador de Prompt/Resposta é uma ferramenta valiosa para aprimorar a eficácia na interação entre usuários e agentes, garantindo que as saídas estejam alinhadas com os objetivos e facilitando a interoperabilidade com outras ferramentas.
+
+Essas técnicas de prompting permitem que os desenvolvedores e pesquisadores explorem as capacidades dos modelos de linguagem de maneira mais eficaz e criativa, levando a resultados mais robustos e úteis em diversas aplicações.
+
 
