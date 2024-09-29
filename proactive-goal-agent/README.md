@@ -23,7 +23,4 @@ Utiliza ferramentas multimodais para coletar contexto, como reconhecimento de ge
 - **Ferramenta de Análise de Screencast:** Extrai etapas de codificação.
 - **ProAgent:** Observa intenções de outros agentes.
 
-## Padrões Relacionados
-- **Criador de Metas Passivo**
-- **Otimizador de Prompt/Resposta**
 
