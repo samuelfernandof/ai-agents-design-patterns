@@ -1,4 +1,4 @@
-![Descrição da Imagem]()
+![Descrição da Imagem](optimizer-prompt-engineering/comp.png)
 
 
 
