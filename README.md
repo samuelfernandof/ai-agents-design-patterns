@@ -24,7 +24,7 @@ Este repositório visa ser uma fonte de referência para profissionais que desej
     </thead>
     <tbody>
         <tr>
-            <td><a href="URL_DO_CRIADOR_DE_META_PASSIVO">Criador de meta passivo</a></td>
+            <td><a href="https://arxiv.org/abs/2210.03629">Criador de meta passivo</a></td>
             <td>Analisa os prompts articulados dos usuários através da interface de diálogo para preservar a interatividade, busca de metas e eficiência.</td>
         </tr>
         <tr>
@@ -32,7 +32,7 @@ Este repositório visa ser uma fonte de referência para profissionais que desej
             <td>Antecipar as metas dos usuários ao entender as interações humanas e capturar o contexto por meio de ferramentas relevantes, para melhorar a interatividade, a busca de metas e a acessibilidade.</td>
         </tr>
         <tr>
-            <td><a href="URL_DA_OTIMIZACAO_DE_PROMPT_RESPOSTA">Otimização de prompt/resposta</a></td>
+            <td><a href="URL_DA_OTIMIZACAO_DE_PROMPT_RESPOSTA">Otimizador de prompt/saídas</a></td>
             <td>Otimizando os prompts/respostas de acordo com o conteúdo de entrada ou saída desejado e formato para fornecer padronização, alinhamento de metas, interoperabilidade e adaptabilidade.</td>
         </tr>
         <tr>
@@ -64,19 +64,19 @@ Este repositório visa ser uma fonte de referência para profissionais que desej
             <td>Usa diferentes agentes ou modelos de fundação para fornecer feedback e refinar o plano gerado e o processo de raciocínio para melhor certeza do raciocínio, explicabilidade, inclusividade e escalabilidade.</td>
         </tr>
         <tr>
-            <td><a href="URL_DA_REFLEXAO_HUMANA">Reflexão humana</a></td>
+            <td><a href="URL_DA_REFLEXAO_HUMANA">Reflexão/feedback humana</a></td>
             <td>Coleta feedback dos humanos para refinar o plano e o processo de raciocínio, para alinhar efetivamente às preferências humanas, melhorando a contestabilidade e a eficácia.</td>
         </tr>
         <tr>
-            <td><a href="URL_DA_COOPERACAO_BASEADA_EM_VOTACAO">Cooperação baseada em votação</a></td>
-            <td>Permite a expressão livre de opiniões entre agentes e chega a um consenso por meio da submissão de seus votos para preservar justiça, responsabilidade e inteligência coletiva.</td>
+            <td><a href="URL_DA_COOPERACAO_BASEADA_EM_VOTACAO">Colaboradores por votação</a></td>
+            <td>Permite a expressão livre de raciocínios entre agentes e chega a um consenso por meio da submissão de seus votos para preservar justiça, responsabilidade e inteligência coletiva.</td>
         </tr>
         <tr>
-            <td><a href="URL_DA_COOPERACAO_BASEADA_EM_PAPEIS">Cooperação baseada em papéis</a></td>
+            <td><a href="URL_DA_COOPERACAO_BASEADA_EM_PAPEIS">Colaboradores por papéis</a></td>
             <td>Atribui papéis diversos e finaliza decisões de acordo com os papéis dos agentes para facilitar a divisão de trabalho, tolerância a falhas, escalabilidade e responsabilidade.</td>
         </tr>
         <tr>
-            <td><a href="URL_DA_COOPERACAO_BASEADA_EM_DEBATE">Cooperação baseada em debate</a></td>
+            <td><a href="URL_DA_COOPERACAO_BASEADA_EM_DEBATE">Colaboradores por debate</a></td>
             <td>Fornece e recebe feedback entre múltiplos agentes que ajustam os pensamentos e comportamentos durante o debate com outros agentes até que um consenso seja alcançado, para melhorar adaptabilidade, explicabilidade e pensamento crítico.</td>
         </tr>
         <tr>
@@ -88,11 +88,11 @@ Este repositório visa ser uma fonte de referência para profissionais que desej
             <td>Mantém uma fonte unificada e conveniente para selecionar diversos agentes e ferramentas para melhorar a descobribilidade, eficiência, adequação das ferramentas e escalabilidade.</td>
         </tr>
         <tr>
-            <td><a href="URL_DO_ADAPTADOR_DE_AGENTES">Adaptador de agentes</a></td>
+            <td><a href="URL_DO_ADAPTADOR_DE_AGENTES">Adaptadores </a></td>
             <td>Conecta o agente e as ferramentas aprendendo novas interfaces e convertendo interfaces incompatíveis em esperadas, garantindo interoperabilidade e adaptabilidade, além de reduzir custos de desenvolvimento.</td>
         </tr>
         <tr>
-            <td><a href="URL_DA_AVALIACAO_DE_AGENTES">Avaliação de agentes</a></td>
+            <td><a href="URL_DA_AVALIACAO_DE_AGENTES">Avaliadores </a></td>
             <td>Fornece interface para conectar o agente e ferramentas externas para a conclusão de tarefas, garantindo a adequação funcional e adaptabilidade com maior flexibilidade.</td>
         </tr>
     </tbody>
