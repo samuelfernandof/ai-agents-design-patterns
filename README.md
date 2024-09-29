@@ -28,7 +28,7 @@ Este repositório visa ser uma fonte de referência para profissionais que desej
             <td>Analisa os prompts articulados dos usuários através da interface de diálogo para preservar a interatividade, busca de metas e eficiência.</td>
         </tr>
         <tr>
-            <td><a href="URL_DO_CRIADOR_DE_META_PROATIVO">Criador de meta proativo</a></td>
+            <td><a href="https://pku-proagent.github.io/">Criador de meta proativo</a></td>
             <td>Antecipar as metas dos usuários ao entender as interações humanas e capturar o contexto por meio de ferramentas relevantes, para melhorar a interatividade, a busca de metas e a acessibilidade.</td>
         </tr>
         <tr>
