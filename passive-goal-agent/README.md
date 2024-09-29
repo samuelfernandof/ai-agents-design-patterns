@@ -19,7 +19,18 @@ Se você disser "Quero viajar", o sistema pode perguntar "Para onde você gostar
 
 ## Em resumo
 
-É como um assistente inteligente que te ajuda a alcançar seus objetivos, mesmo que você não saiba exatamente como expressá-los.
+É como um assistente inteligente do tipo ReAct, que te ajuda a alcançar seus objetivos, mesmo que você não saiba exatamente como expressá-los.
+
+O criador de objetivos passivo analisa os objetivos articulados pelos usuários através da interface de diálogo.
+
+Contexto: Ao consultar agentes para resolver determinados problemas, os usuários fornecem contexto relacionado e explicam os objetivos nos prompts.
+
+Problema: Os usuários podem não ter experiência em interagir com agentes, e as informações fornecidas podem ser ambíguas para a realização dos objetivos.
+
+Forças:
+
+Subespecificação: Os usuários podem não conseguir fornecer informações de contexto completas e especificar objetivos precisos para os agentes.
+Eficiência: Os usuários esperam respostas rápidas dos agentes.
 
 ## Para que serve?
 
