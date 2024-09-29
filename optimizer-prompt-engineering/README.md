@@ -1,6 +1,3 @@
-![Descrição da Imagem](optimizer-prompt-engineering/comp.png)
-
-
 
 # Otimizador de Prompt/Respose
 
