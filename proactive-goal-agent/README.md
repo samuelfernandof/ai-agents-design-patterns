@@ -1,4 +1,4 @@
-# Criador de Metas Proativo
+# Agent Criador de Metas Proativo
 
 ## Resumo
 O Criador de Metas Proativo permite que agentes de IA antecipem os objetivos dos usuários através da captura e análise de informações contextuais. Essa abordagem melhora a precisão na execução de tarefas, superando limitações de interações tradicionais.
