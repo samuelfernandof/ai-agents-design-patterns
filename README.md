@@ -1,5 +1,7 @@
 ## Design Patterns de AI Agents 
 
+![Descrição da Imagem](https://raw.githubusercontent.com/samuelfernandof/ai-agents-design-patterns/main/Blue%20and%20Green%20Corporate%20project%20phases%20chart%20graph%20(1).png)
+
 ## Resumo
 
 Foundation Models (FMs) são a base das tecnologias de inteligência artificial generativa (GenAI) e têm atraído atenção significativa de acadêmicos e indústrias. Em particular, os modelos de linguagem de grande escala (LLMs) destacam-se pela sua capacidade de entender e gerar conteúdo humano, impulsionando o desenvolvimento de uma ampla gama de tarefas que utilizam esses modelos.
