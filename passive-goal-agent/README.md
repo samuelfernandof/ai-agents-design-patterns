@@ -1,4 +1,4 @@
-# Agent Criador Passivo de Metas
+# Criador Passivo de Metas
 
 ## O que é?
 
