@@ -1,5 +1,3 @@
-## Design Patterns de AI Agents 
-
 ![Descrição da Imagem](https://raw.githubusercontent.com/samuelfernandof/ai-agents-design-patterns/main/Blue%20and%20Green%20Corporate%20project%20phases%20chart%20graph%20(1).png)
 
 ## Resumo
