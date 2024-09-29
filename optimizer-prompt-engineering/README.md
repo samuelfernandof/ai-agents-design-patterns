@@ -1,4 +1,4 @@
-# Otimizador de Prompt/Resposta
+# Otimizador de Prompt/Respose
 
 ## Resumo
 Agentes do padrão Otimizador de Prompt/Resposta podem atuar exclusivamente no prompt para gerar entradas e saídas de acordo com o conteúdo e o formato desejados. Este processo é essencial para melhorar a eficácia da comunicação entre os usuários e os agentes, garantindo que os resultados estejam alinhados com os objetivos dos usuários.
