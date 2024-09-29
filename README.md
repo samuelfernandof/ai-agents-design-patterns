@@ -12,13 +12,5 @@ Com o crescimento do interesse em agentes autônomos baseados em FMs, como AutoG
 - **Ecosistema de Agentes:** Um guia com anotações sobre padrões arquitetônicos para auxiliar no design e desenvolvimento de agentes baseados em FM.
 - **Análise Curada:** Cada padrão inclui contexto de aplicação, problemas abordados, benefícios e trade-offs em atributos de qualidade de software, usos conhecidos no mundo real e relações com outros padrões.
 
-## Estrutura do Repositório
-
-1. **Introdução:** Conceitos fundamentais e discussões sobre trabalhos relacionados.
-2. **Metodologia:** Métodos de pesquisa utilizados na elaboração do catálogo.
-3. **Padrões Detalhados:** Apresentação de cada padrão com um template estendido.
-4. **Discussão do Catálogo:** Reflexão sobre a aplicação dos padrões e suas implicações.
-5. **Conclusão:** Resumo das principais descobertas e contribuições.
-
 Este repositório visa ser uma fonte de referência para profissionais que desejam entender e aplicar padrões de design em agentes baseados em modelos de fundação.
 
