@@ -1,4 +1,4 @@
-# 4.8 Gerador de Planos Multipath
+# Gerador de Planos Multipath
 
 ## Resumo
 O **gerador de planos multipath** permite a criação de múltiplas opções em cada etapa intermediária, visando alcançar os objetivos dos usuários.
