@@ -1,3 +1,45 @@
+
+# RAG Agentic Pattern
+
+## Resumo
+As técnicas de **geração aumentada por recuperação** melhoram a atualizabilidade do conhecimento dos agentes para a realização de objetivos e mantêm a privacidade dos dados em implementações de agentes/sistemas baseados em modelos fundamentais locais.
+
+## Contexto
+Agentes baseados em grandes modelos fundamentais não estão equipados com conhecimento relacionado a domínios específicos, especialmente em dados locais altamente confidenciais e sensíveis à privacidade, a menos que sejam ajustados ou pré-treinados com dados de domínio.
+
+## Problema
+Dada uma tarefa, como os agentes podem conduzir o raciocínio com dados/conhecimentos que não foram aprendidos pelos modelos fundamentais durante o treinamento do modelo?
+
+## Forças
+- **Falta de conhecimento**: O processo de raciocínio pode ser pouco confiável quando o agente é solicitado a realizar tarefas específicas de domínio que não estão em seu reservatório de conhecimento.
+- **Sobrecarga**: O ajuste fino de grandes modelos fundamentais usando dados locais ou o treinamento de um grande modelo fundamental localmente consome muitos recursos computacionais e custos.
+- **Privacidade dos dados**: Os dados locais são confidenciais e não podem ser usados para treinar ou ajustar modelos.
+
+## Solução
+A ![Figura 6](link-da-imagem) ilustra uma representação gráfica de alto nível da geração aumentada por recuperação. RAG é uma técnica para melhorar a precisão e a confiabilidade dos agentes com fatos recuperados de outras fontes (dados internos ou online). As lacunas de conhecimento onde os agentes estão faltando em memória são preenchidas usando o conhecimento parametrizado gerado em bancos de dados vetoriais. Por exemplo, durante a geração de planos, passos específicos podem exigir informações que não estão na memória original do agente. O agente pode recuperar informações do conhecimento parametrizado e usá-las para o planejamento, enquanto a resposta aumentada (ou seja, o plano) é retornada ao usuário. O processo de recuperação não requer pré-treinamento ou ajuste fino do modelo servido pelo agente, preservando a privacidade dos dados locais, reduzindo custos de treinamento e computação e fornecendo informações mais precisas e atualizadas. Os dados locais recuperados podem ser enviados de volta ao agente via prompts (considerando o tamanho da janela de contexto), enquanto o agente é capaz de processar as informações e gerar planos por meio de aprendizado contextual. Atualmente, existe um conjunto de técnicas RAG focando em vários aspectos de aprimoramento, fontes de dados e aplicações, como RAG federado e RAG baseado em grafo.
+
+## Consequências
+
+### Benefícios
+- **Recuperação de conhecimento**: Os agentes podem buscar e recuperar conhecimento relacionado às tarefas dadas, garantindo a confiabilidade dos passos de raciocínio.
+- **Atualizabilidade**: Os prompts/respostas gerados usando RAG pelo agente em dados internos ou online são atualizáveis pelo conhecimento parametrizado complementar.
+- **Privacidade dos dados**: O agente pode recuperar conhecimento adicional de bancos de dados locais, garantindo a privacidade e a segurança dos dados.
+- **Custo-eficiência**: Sob a restrição de privacidade dos dados, o RAG pode fornecer conhecimento essencial ao agente sem a necessidade de treinar um novo modelo fundamental totalmente, reduzindo assim os custos de treinamento.
+
+### Desvantagens
+- **Sobrecarga de manutenção**: A manutenção e atualização do conhecimento parametrizado no banco de dados vetorial requerem custos adicionais de computação e armazenamento.
+- **Limitação de dados**: Os agentes ainda dependem principalmente dos dados com os quais foram treinados para gerar prompts, o que pode impactar a qualidade e a precisão do conteúdo gerado em domínios específicos.
+
+## Usos Conhecidos
+- **LinkedIn**: O LinkedIn aplica RAG para construir a pipeline de agentes baseados em modelos fundamentais, que podem buscar estudos de caso apropriados para responder aos usuários. 
+- **Yan et al.** desenvolveram um avaliador de recuperação que pode gerar um grau de confiança após avaliar a qualidade dos dados recuperados, melhorando a robustez e o desempenho geral do RAG para agentes.
+- **Levonian et al.** aplicaram RAG com GPT-3.5, desenvolvendo um agente que pode recuperar conteúdos de um livro didático de matemática de alta qualidade de código aberto para gerar respostas a alunos.
+
+
+
+#TUTORIAL
+
+
 # Agentic Workflow RAG-With-LangGraph-AstraDB-And-Llama-3.1
 In this Blog we will build a multi AI agent with RAG using Langraph and AstraDB with integration with the Llama 3.1 open source model using Groq API. 
 # Building Applications with Langchain and AstraDB
